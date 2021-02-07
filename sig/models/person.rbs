@@ -1,0 +1,5 @@
+class Person
+  attr_accessor name: String
+  attr_writer age: Integer
+  def initialize: (String, Integer) -> void
+end

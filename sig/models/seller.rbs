@@ -1,0 +1,3 @@
+class Seller < Person
+  attr_accessor salary: Salary
+end

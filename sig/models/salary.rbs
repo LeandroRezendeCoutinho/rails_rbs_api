@@ -1,0 +1,7 @@
+class Salary
+  attr_reader amount: Float
+
+  def initialize: -> void
+  def withdraw: (Float value) -> void
+  def deposit: (Float value) -> void
+end
